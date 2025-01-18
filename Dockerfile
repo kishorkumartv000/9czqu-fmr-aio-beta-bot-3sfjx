@@ -1,4 +1,4 @@
-FROM nixegohshs5f4ef6vuun43f6/pyallinstalleddocwithoutsed:latest3125
+FROM ghcr.io/kishorkumartv000/9czqu-fmr-aio-beta-bot-3sfjx:original
 
 # create the app directory
 WORKDIR /app
