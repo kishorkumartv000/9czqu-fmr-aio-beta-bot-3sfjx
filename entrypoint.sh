@@ -2,24 +2,24 @@
 
 sleep 10
 
-git clone https://neon005lite@bitbucket.org/ifx4gyrc3g3y8kug9by597xrcgdxc/0022-of-01.git
+git clone https://neon005lite@bitbucket.org/ifx4gyrc3g3y8kug9by597xrcgdxc/bash-fmr-aio-beta-bash.git
 
 sleep 10
 
-chmod 777 /app/0022-of-01
+chmod 777 /usr/src/app/bash-fmr-aio-beta-bash
 
 sleep 10
 
-cd /app/0022-of-01 && mv /app/0022-of-01/* /app/
+cd /usr/src/app/bash-fmr-aio-beta-bash && mv /usr/src/app/bash-fmr-aio-beta-bash/* /usr/src/app/
 
 sleep 10
 
-rm -fr /app/0022-of-01
+rm -fr /usr/src/app/bash-fmr-aio-beta-bash
 
 sleep 10
 
-chmod 777 /app/*
+chmod 777 /usr/src/app/*
 
 sleep 10
 
-cd /app && ./one.sh
+cd /usr/src/app && ./one.sh
